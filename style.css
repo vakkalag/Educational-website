@@ -1,0 +1,94 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+    }
+
+    /* Navigation Bar Container */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #ffffff;
+      padding: 15px 60px;
+      border-bottom: 1px solid #eaeaea;
+    }
+    .circle_logo{
+        width: 50px;
+        height: 50px;
+        border-radius: 25%;
+        object-fit: cover;
+        border: 2px solid ;
+    }
+
+
+    .brand-name {
+      display: flex;
+       align-items: center;
+       margin: 0;
+       padding:0%;
+       gap: 10px;
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 20px;
+      font-weight: bold;
+      
+    }
+
+    /* Right Side Wrapper (Links + Button) */
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 35px;
+    }
+
+    /* Menu Links */
+    .nav-links {
+      display: flex;
+      list-style: none;
+      gap: 28px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #333333;
+      font-size: 15px;
+      font-weight: 500;
+      transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+      color: #1a3a8a;
+    }
+
+    /* Apply Button */
+    .apply-btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background-color: #1a3a8a;
+      color: #ffffff;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      transition: background-color 0.2s ease;
+    }
+
+    .apply-btn:hover {
+      background-color: #132b68;
+    }
+
+    /* Bell Icon Sizing */
+    .bell-icon {
+      width: 16px;
+      height: 16px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+    }
